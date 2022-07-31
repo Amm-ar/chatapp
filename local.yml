@@ -51,3 +51,9 @@ services:
     ports:
       - "9000:9000"
     command: /start-docs
+
+redis:
+  image: redis:6
+  container_name: conversa_dj_local_redis
+  ports:
+    - "6379:6379"

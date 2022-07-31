@@ -22,3 +22,4 @@ drf-spectacular==0.23.1  # https://github.com/tfranzel/drf-spectacular
 
 # Project Specific 
 channels 
+channels_redis
